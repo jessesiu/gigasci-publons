@@ -52,8 +52,8 @@ return array(
 		),
 		'db'=>array(
                          'connectionString'=>"pgsql:host=localhost;port=5432;dbname=publon",
-                         'username'=>'gigadb',
-                         'password'=>'gigadb2013',
+                         'username'=>'',
+                         'password'=>'',
                          'charset'=>'utf8',
                          
                    ),
