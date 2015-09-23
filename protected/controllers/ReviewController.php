@@ -69,7 +69,7 @@ class ReviewController extends Controller
                     $ch=  curl_init($url);
                     curl_setopt($ch, CURLOPT_POST, 1);
                     curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type:application/xml'));
-                    curl_setopt($ch, CURLOPT_USERPWD, 'BL.BGI:BG79xzpuqwe23xmn!');
+                    curl_setopt($ch, CURLOPT_USERPWD, '');
                     curl_setopt($ch, CURLOPT_POSTFIELDS, utf8_encode($xml));
                     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
                     $output = curl_exec($ch);
@@ -86,7 +86,7 @@ class ReviewController extends Controller
                     $ch1=  curl_init($url1);
                     curl_setopt($ch1, CURLOPT_POST, 1);
                     curl_setopt($ch1, CURLOPT_HTTPHEADER, array('Content-Type:application/xml'));
-                    curl_setopt($ch1, CURLOPT_USERPWD, 'BL.BGI:BG79xzpuqwe23xmn!');
+                    curl_setopt($ch1, CURLOPT_USERPWD, '');
                     curl_setopt($ch1, CURLOPT_POSTFIELDS, utf8_encode($info));
                     curl_setopt($ch1, CURLOPT_RETURNTRANSFER, 1);
                     $output1 = curl_exec($ch1);
@@ -316,7 +316,7 @@ class ReviewController extends Controller
     $ch = curl_init($url); 
     //$contents= json_decode($params,true);
     $contents=$params;
-    $access_token='ea53e57170ea72c3bb8308f3163cdf90bf3595cf';
+    $access_token='';
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($ch, CURLOPT_POST, 1);
     curl_setopt($ch, CURLOPT_HTTPHEADER, array('Authorization: Token ' . $access_token,
