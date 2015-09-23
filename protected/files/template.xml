@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource xmlns="http://datacite.org/schema/kernel-3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-3 http://schema.datacite.org/meta/kernel-3/metadata.xsd">
+  <identifier identifierType="DOI">10.5072/review.100067</identifier>
+  <creators>
+    <creator>
+      <creatorName>test</creatorName>
+    </creator>
+  </creators>
+  <titles>
+    <title>Test title</title>
+  </titles>
+  <publisher>GigaScience</publisher>
+  <publicationYear>2015</publicationYear>
+  <subjects>
+<subject>Peer review</subject>
+</subjects>
+<language>eng</language>
+  <dates>
+    <date dateType="Submitted">2015-09-11</date>
+  </dates>
+  <resourceType resourceTypeGeneral="Text">Peer review</resourceType>
+  <relatedIdentifiers>
+    <relatedIdentifier relatedIdentifierType="DOI" relationType="Reviews">10.5524/10001</relatedIdentifier> 
+  </relatedIdentifiers>
+  <rightsList>
+<rights rightsURI="http://creativecommons.org/licenses/by/4.0/">
+Creative Commons Attribution-4.0 International (CC-BY 4.0)
+</rights>
+</rightsList>
+<descriptions>
+  <description descriptionType="Other">This is the open peer reviewers comments and recommendations regarding the submitted GigaScience article and/or dataset.</description>
+</descriptions>
+</resource>
